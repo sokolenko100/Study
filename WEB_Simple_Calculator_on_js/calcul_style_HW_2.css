@@ -1,0 +1,44 @@
+#formCulculator{
+	border: 1px solid red; 
+	border-radius: 15px;
+    width:310px;
+    height:180px;
+    background: #ccc;
+    padding: 10px;
+	display:inline-block;
+   position: fixed; top: 32%; left: 40%;
+}
+#expression{
+     margin:2px;
+	 width:300px;
+	 height:40px;
+	 border: 1px solid green; 
+	 border-radius: 8px;
+	 font-size:13px;
+	 font-family:Verdana,Arial,Helvetica;
+}
+.calcClass{
+	/* clear: left;
+     float: left;*/
+	 margin:2px;
+	 width:70px;
+	 height:30px;
+	 border: 1px solid green; 
+	 border-radius: 8px;
+	 font-size:13px;
+	 font-family:Verdana,Arial,Helvetica;
+}
+div{
+display:inline-block;
+}
+#divLeft{
+	 width:230px;
+	 height:170px;
+}
+#divRight{
+	 width:71px;
+	 height:170px;
+}
+#btnPlus{
+width:148px;	
+}
