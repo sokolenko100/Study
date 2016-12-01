@@ -339,7 +339,7 @@ public class CharandString
     	String result ="";
     	for (int i = 0; i < words.length(); i++) 
     	{
-			if ((i<=startPosition)||(i>(startPosition + Lenght)))
+			if ((i<startPosition)||(i>=(startPosition + Lenght)))
 			{
 				result+=words.charAt(i);
 			} 
