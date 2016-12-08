@@ -1,0 +1,6 @@
+#canvasID{
+	border: 2px solid black; 
+	border-radius: 15px;
+    background: white;
+    position: fixed; top: 20%; left: 35%;
+}
