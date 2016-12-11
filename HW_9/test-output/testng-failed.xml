@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="AList0_2_TestNG.TestNG_Alist">
+        <methods>
+          <include name="testSet_toStartPos_m4"/>
+          <include name="testdelPos_50"/>
+          <include name="testmaxPos_ImptyArray"/>
+          <include name="testdelEnd_iniArray_0_elem"/>
+          <include name="testdelStart_arrayIsNull"/>
+          <include name="testdelEnd_0_el"/>
+          <include name="testhalfReverse_E"/>
+          <include name="testaddPos_50"/>
+          <include name="testdelPos_m5"/>
+          <include name="testMin_0_elem_inArray"/>
+          <include name="testSet_0_elem_inArray"/>
+          <include name="testdelEnd_isiArray_null"/>
+          <include name="testdelPos_0_el"/>
+          <include name="testaddPos_0_el"/>
+          <include name="testInit_Exc"/>
+          <include name="testSet_toStartPos_40"/>
+          <include name="testreverse_E"/>
+          <include name="testminPos_ImptyArray"/>
+          <include name="testMax_0_elem_inArray"/>
+          <include name="testdelStart_0_elem"/>
+          <include name="testSort_E"/>
+          <include name="testaddPos_m5"/>
+        </methods>
+      </class> <!-- AList0_2_TestNG.TestNG_Alist -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
