@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="80" passed="80">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="428" started-at="2016-12-18T13:12:07Z" finished-at="2016-12-18T13:12:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="428" started-at="2016-12-18T13:12:07Z" finished-at="2016-12-18T13:12:07Z">
+      <class name="LikedList2.TestNG_Alist">
+        <test-method status="PASS" signature="testAddEnd()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testAddEnd" duration-ms="30" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd -->
+        <test-method status="PASS" signature="testAddEnd_iniArray_0_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testAddEnd_iniArray_0_elem" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testAddEnd_iniArray_0_elem(TestNG_Alist.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_iniArray_0_elem -->
+        <test-method status="PASS" signature="testAddEnd_iniArray_1_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testAddEnd_iniArray_1_elem" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_iniArray_1_elem -->
+        <test-method status="PASS" signature="testAddEnd_iniArray_2_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testAddEnd_iniArray_2_elem" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEnd_iniArray_2_elem -->
+        <test-method status="PASS" signature="testAddStart()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testAddStart" duration-ms="10" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart -->
+        <test-method status="PASS" signature="testAddStart_iniArray_0_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testAddStart_iniArray_0_elem" duration-ms="10" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testAddStart_iniArray_0_elem(TestNG_Alist.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_iniArray_0_elem -->
+        <test-method status="PASS" signature="testAddStart_iniArray_2_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testAddStart_iniArray_2_elem" duration-ms="10" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_iniArray_2_elem -->
+        <test-method status="PASS" signature="testAddStart_iniArray_1_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testAddStart_iniArray_1_elem" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_iniArray_1_elem -->
+        <test-method status="PASS" signature="testAddStart_m30()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testAddStart_m30" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddStart_m30 -->
+        <test-method status="PASS" signature="testGet()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testGet" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method status="PASS" signature="testGet_2_pos()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testGet_2_pos" duration-ms="10" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_2_pos -->
+        <test-method status="PASS" signature="testGet_1_pos()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testGet_1_pos" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_1_pos -->
+        <test-method status="PASS" signature="testGet_posit_eqal_40()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testGet_posit_eqal_40" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.get(LList2.java:258)
+	at LikedList2.TestNG_Alist.testGet_posit_eqal_40(TestNG_Alist.java:312)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_posit_eqal_40 -->
+        <test-method status="PASS" signature="testGet_posit_eqal_m4()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testGet_posit_eqal_m4" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.get(LList2.java:258)
+	at LikedList2.TestNG_Alist.testGet_posit_eqal_m4(TestNG_Alist.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_posit_eqal_m4 -->
+        <test-method status="PASS" signature="testMax()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testMax" duration-ms="10" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax -->
+        <test-method status="PASS" signature="testMax_2_elem_inArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testMax_2_elem_inArray" duration-ms="10" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_2_elem_inArray -->
+        <test-method status="PASS" signature="testMax_1_elem_inArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testMax_1_elem_inArray" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_1_elem_inArray -->
+        <test-method status="PASS" signature="testMax_0_elem_inArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testMax_0_elem_inArray" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testMax_0_elem_inArray(TestNG_Alist.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMax_0_elem_inArray -->
+        <test-method status="PASS" signature="testMin_1_elem_inArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testMin_1_elem_inArray" duration-ms="13" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_1_elem_inArray -->
+        <test-method status="PASS" signature="testMin_0_elem_inArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testMin_0_elem_inArray" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testMin_0_elem_inArray(TestNG_Alist.java:437)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_0_elem_inArray -->
+        <test-method status="PASS" signature="testMin()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testMin" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin -->
+        <test-method status="PASS" signature="testMin_2_elem_inArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testMin_2_elem_inArray" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin_2_elem_inArray -->
+        <test-method status="PASS" signature="testSet()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSet" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet -->
+        <test-method status="PASS" signature="testSet_0_elem_inArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSet_0_elem_inArray" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.set(LList2.java:281)
+	at LikedList2.TestNG_Alist.testSet_0_elem_inArray(TestNG_Alist.java:331)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_0_elem_inArray -->
+        <test-method status="PASS" signature="testSet_1_elem_inArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSet_1_elem_inArray" duration-ms="6" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_1_elem_inArray -->
+        <test-method status="PASS" signature="testSet_2_elem_inArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSet_2_elem_inArray" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_2_elem_inArray -->
+        <test-method status="PASS" signature="testSet_toEndPos()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSet_toEndPos" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_toEndPos -->
+        <test-method status="PASS" signature="testSet_toStartPos()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSet_toStartPos" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_toStartPos -->
+        <test-method status="PASS" signature="testSet_toStartPos_40()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSet_toStartPos_40" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.set(LList2.java:281)
+	at LikedList2.TestNG_Alist.testSet_toStartPos_40(TestNG_Alist.java:382)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_toStartPos_40 -->
+        <test-method status="PASS" signature="testSet_toStartPos_m4()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSet_toStartPos_m4" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.set(LList2.java:281)
+	at LikedList2.TestNG_Alist.testSet_toStartPos_m4(TestNG_Alist.java:374)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSet_toStartPos_m4 -->
+        <test-method status="PASS" signature="testSort()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSort" duration-ms="2" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort -->
+        <test-method status="PASS" signature="testSort_1_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSort_1_el" duration-ms="3" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_1_el -->
+        <test-method status="PASS" signature="testSort_2_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSort_2_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_2_el -->
+        <test-method status="PASS" signature="testSort_Empty_array()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testSort_Empty_array" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testSort_Empty_array(TestNG_Alist.java:675)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort_Empty_array -->
+        <test-method status="PASS" signature="testToString()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testToString" duration-ms="3" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method status="PASS" signature="testToString_0_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testToString_0_el" duration-ms="2" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testToString_0_el(TestNG_Alist.java:265)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_0_el -->
+        <test-method status="PASS" signature="testToString_1_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testToString_1_el" duration-ms="2" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_1_el -->
+        <test-method status="PASS" signature="testToString_2_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testToString_2_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString_2_el -->
+        <test-method status="PASS" signature="test_mult_0()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="test_mult_0" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.test_mult_0(TestNG_Alist.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_mult_0 -->
+        <test-method status="PASS" signature="test_mult_1()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="test_mult_1" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_mult_1 -->
+        <test-method status="PASS" signature="test_mult_2()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="test_mult_2" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_mult_2 -->
+        <test-method status="PASS" signature="test_mult_many()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="test_mult_many" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_mult_many -->
+        <test-method status="PASS" signature="testaddPos()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testaddPos" duration-ms="2" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddPos -->
+        <test-method status="PASS" signature="testaddPos_0_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testaddPos_0_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testaddPos_0_el(TestNG_Alist.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddPos_0_el -->
+        <test-method status="PASS" signature="testaddPos_1_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testaddPos_1_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddPos_1_el -->
+        <test-method status="PASS" signature="testaddPos_2_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testaddPos_2_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddPos_2_el -->
+        <test-method status="PASS" signature="testaddPos_50()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testaddPos_50" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.addPos(LList2.java:128)
+	at LikedList2.TestNG_Alist.testaddPos_50(TestNG_Alist.java:635)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddPos_50 -->
+        <test-method status="PASS" signature="testaddPos_m5()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testaddPos_m5" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.addPos(LList2.java:128)
+	at LikedList2.TestNG_Alist.testaddPos_m5(TestNG_Alist.java:628)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddPos_m5 -->
+        <test-method status="PASS" signature="testdelEnd()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelEnd" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelEnd -->
+        <test-method status="PASS" signature="testdelEnd_iniArray_0_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelEnd_iniArray_0_elem" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testdelEnd_iniArray_0_elem(TestNG_Alist.java:228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelEnd_iniArray_0_elem -->
+        <test-method status="PASS" signature="testdelEnd_iniArray_1_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelEnd_iniArray_1_elem" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelEnd_iniArray_1_elem -->
+        <test-method status="PASS" signature="testdelEnd_iniArray_2_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelEnd_iniArray_2_elem" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelEnd_iniArray_2_elem -->
+        <test-method status="PASS" signature="testdelPos()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelPos" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelPos -->
+        <test-method status="PASS" signature="testdelPos_0_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelPos_0_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testdelPos_0_el(TestNG_Alist.java:549)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelPos_0_el -->
+        <test-method status="PASS" signature="testdelPos_1_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelPos_1_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelPos_1_el -->
+        <test-method status="PASS" signature="testdelPos_2_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelPos_2_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelPos_2_el -->
+        <test-method status="PASS" signature="testdelPos_50()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelPos_50" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.delPos(LList2.java:222)
+	at LikedList2.TestNG_Alist.testdelPos_50(TestNG_Alist.java:582)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelPos_50 -->
+        <test-method status="PASS" signature="testdelPos_m5()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelPos_m5" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.delPos(LList2.java:222)
+	at LikedList2.TestNG_Alist.testdelPos_m5(TestNG_Alist.java:575)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelPos_m5 -->
+        <test-method status="PASS" signature="testdelStart()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelStart" duration-ms="2" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelStart -->
+        <test-method status="PASS" signature="testdelStart_0_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelStart_0_elem" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testdelStart_0_elem(TestNG_Alist.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelStart_0_elem -->
+        <test-method status="PASS" signature="testdelStart_1_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelStart_1_elem" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelStart_1_elem -->
+        <test-method status="PASS" signature="testdelStart_2_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testdelStart_2_elem" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdelStart_2_elem -->
+        <test-method status="PASS" signature="testhalfReverse_0()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testhalfReverse_0" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testhalfReverse_0(TestNG_Alist.java:724)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhalfReverse_0 -->
+        <test-method status="PASS" signature="testhalfReverse_1_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testhalfReverse_1_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhalfReverse_1_el -->
+        <test-method status="PASS" signature="testhalfReverse_2_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testhalfReverse_2_el" duration-ms="3" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhalfReverse_2_el -->
+        <test-method status="PASS" signature="testhalfReverse_Even()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testhalfReverse_Even" duration-ms="2" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhalfReverse_Even -->
+        <test-method status="PASS" signature="testhalfReverse_notEven()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testhalfReverse_notEven" duration-ms="2" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhalfReverse_notEven -->
+        <test-method status="PASS" signature="testmaxPos()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testmaxPos" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmaxPos -->
+        <test-method status="PASS" signature="testmaxPos_1_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testmaxPos_1_el" duration-ms="4" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmaxPos_1_el -->
+        <test-method status="PASS" signature="testmaxPos_2_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testmaxPos_2_elem" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmaxPos_2_elem -->
+        <test-method status="PASS" signature="testmaxPos_ImptyArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testmaxPos_ImptyArray" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testmaxPos_ImptyArray(TestNG_Alist.java:529)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmaxPos_ImptyArray -->
+        <test-method status="PASS" signature="testminPos()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testminPos" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testminPos -->
+        <test-method status="PASS" signature="testminPos_1_el()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testminPos_1_el" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testminPos_1_el -->
+        <test-method status="PASS" signature="testminPos_2_elem()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testminPos_2_elem" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testminPos_2_elem -->
+        <test-method status="PASS" signature="testminPos_ImptyArray()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testminPos_ImptyArray" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testminPos_ImptyArray(TestNG_Alist.java:492)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testminPos_ImptyArray -->
+        <test-method status="PASS" signature="testreverse_0()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testreverse_0" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at LikedList2.LList2.init(LList2.java:28)
+	at LikedList2.TestNG_Alist.testreverse_0(TestNG_Alist.java:773)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testreverse_0 -->
+        <test-method status="PASS" signature="testreverse_1()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testreverse_1" duration-ms="0" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testreverse_1 -->
+        <test-method status="PASS" signature="testreverse_2()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testreverse_2" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testreverse_2 -->
+        <test-method status="PASS" signature="testreverse_Even()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testreverse_Even" duration-ms="6" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testreverse_Even -->
+        <test-method status="PASS" signature="testreverse_notEven()[pri:0, instance:LikedList2.TestNG_Alist@d992b2]" name="testreverse_notEven" duration-ms="1" started-at="2016-12-18T15:12:07Z" finished-at="2016-12-18T15:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testreverse_notEven -->
+      </class> <!-- LikedList2.TestNG_Alist -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
