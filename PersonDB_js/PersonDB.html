@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf - 8"> </meta>
+      <title>Table</title>
+     <link rel="stylesheet" type="text/css" href="PersonDB.css"></link>
+      <script type="text/javascript" src="PersonDB.js"></script>
+      <script type="text/javascript" src="yaml.js"></script>
+  </head>
+  <body>
+	<div id ="divID">
+	<!--<table border="1" class="table" width="600px">
+		<tr>
+        <td >id</td>
+        <td >fname</td>
+		<td >lname</td>
+        <td >age</td>
+		</tr>
+	</table> -->
+	<table border="1" class="table" width="600px" id="table">
+    <thead align="center" style="background: #ffc">
+        <tr>
+            <th>id</th>
+            <th>fname</th>
+            <th>lname</th>
+            <th>age</th>
+        </tr>
+    </thead>
+        <tbody id="tbodyID">
+            <tr id="tr1">
+                <td id="a1"></td>
+                <td id="a2"></td>
+                <td id="a3"></td>
+                <td id="a4"></td>
+            </tr>
+
+            <tr>
+                <td id="b1"></td>
+                <td id="b2"></td>
+                <td id="b3"></td>
+                <td id="b4"></td>
+            </tr>
+            <tr>
+                <td id="c1"></td>
+                <td id="c2"></td>
+                <td id="c3"></td>
+                <td id="c4"></td>
+            </tr>
+            <tr>
+                <td id="d1"></td>
+                <td id="d2"></td>
+                <td id="d3"></td>
+                <td id="d4"></td>
+            </tr>
+        </tbody>
+	</table>
+
+	<div>
+	<input type="text" id="text_firstfild"  value=""/>
+	<input type="text" id="text_secondfild"  value=""/>
+	<input type="text" id="text_therdtfild"  value=""/>
+	<input type="text" id="text_fourtfild"  value=""/>
+	</div>
+		<div>
+			<input type="button" id="btn_addStart" onclick="clickBtn(btn_addStart.value)" value="addStart"/>
+			<input type="button" id="btn_addMid" onclick="clickBtn(btn_addMid.value)" value="addMid"/>
+			<input type="button" id="btn_addEnd" onclick="clickBtn(btn_addEnd.value)" value="addEnd"/>
+			<input type="button" id="btn_dellStart" onclick="clickDel(btn_dellStart.value)" value="dellStart"/>
+			<input type="button" id="btn_dellMid" onclick="clickDel(btn_dellMid.value)" value="dellMid"/>
+			<input type="button" id="btn_dellEnd" onclick="clickDel(btn_dellEnd.value)" value="dellEnd"/>
+		</div>
+		<div>
+			<input type="button" id="btn_save" onclick="serialization(btn_save.value)" value="save"/>
+			<input type="button" id="btn_load" onclick="load(btn_load.value)" value="load"/>
+            <input type="button" id="btn_clear" onclick="clearTable()" value="CLEAR" />
+		</div>
+		<div>
+			<form id="ComboBox">
+			<select id="box">
+				<option value="json">json</option>
+				<option value="xml">xml</option>
+				<option value="yaml">yaml</option>
+				<option value="csv">csv</option>
+			</select>
+			</form>
+		</div>
+  </body>
+ </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf - 8"> </meta>
+      <title>Table</title>
+     <link rel="stylesheet" type="text/css" href="Table.css"></link>
+	 <!--Изоляция от траблов-->
+      <script type="text/javascript" src="Table.js"></script>
+  </head>
+  <body  >
+	<div id ="divID">
+		<table border="1" width="600px" id="table">
+    <tr id="tr1">
+        <td id="a1">1</td>
+        <td id="a2">2</td>
+		<td id="a3">3</td>
+        <td id="a4">4</td>
+    </tr>
+
+    <tr>
+		<td id="b1">1</td>
+        <td id="b2">2</td>
+		<td id="b3">3</td>
+        <td id="b4">4</td>
+    </tr>
+	 <tr>
+		<td id="c1">1</td>
+        <td id="c2">2</td>
+		<td id="c3">3</td>
+        <td id="c4">4</td>
+    </tr>
+		 <tr>
+		<td id="d1">1</td>
+        <td id="d2">2</td>
+		<td id="d3">3</td>
+        <td id="d4">4</td>
+    </tr>
+	</table>
+	<div>
+	<input type="text" id="text_firstfild"  value=""/>
+	<input type="text" id="text_secondfild"  value=""/>
+	<input type="text" id="text_therdtfild"  value=""/>
+	<input type="text" id="text_fourtfild"  value=""/>
+	</div>
+	<div>
+	<input type="button" id="btn_addStart" onclick="clickBtnStart()" value="addStart"/>
+	<input type="button" id="btn_addMid" onclick="clickBtnMid()" value="addMid"/>
+	<input type="button" id="btn_addEnd" onclick="clickBtnEnd()" value="addEnd"/>
+	<input type="button" id="btn_dellStart" onclick="clickBtnDelStart()" value="dellStart"/>
+	<input type="button" id="btn_dellMid" onclick="clickBtnDelMid()" value="dellMid"/>
+	<input type="button" id="btn_dellEnd" onclick="clickBtnDelEnd()" value="dellEnd"/>
+
+	</div>
+	</div>
+  </body>
+ </html>

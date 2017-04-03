@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="src/lib/opencsv-3.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/lib/univocity-parsers-2.3.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/mongo.jar"/>
+	<classpathentry kind="lib" path="src/lib/jackson-dataformat-csv-2.1.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/sqljdbc42.jar"/>
+	<classpathentry kind="lib" path="src/lib/mongo-java-driver-3.4.0-beta1.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/http-2.2.1.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="src/lib/h2-1.4.193.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/lib/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/lib/gson-2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/lib/xstream-1.4.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/lib/snakeyaml-1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="/HW_4/src/lib/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/HW_Fest_TEST_Calc/lib/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/lib/jackson-all-1.9.2.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

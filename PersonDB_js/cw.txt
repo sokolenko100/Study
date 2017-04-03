@@ -1,0 +1,5 @@
+<tbody id ="px">
+</tbody>
+
+var rr = px.insertRow()
+px.innerHTML="";

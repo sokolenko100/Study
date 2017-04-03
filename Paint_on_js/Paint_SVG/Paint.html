@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf - 8"> </meta>
+      <title>Paint</title>
+     <link rel="stylesheet" type="text/css"  href="Paint.css"></link>
+	 <!--Изоляция от траблов-->
+      <script type="text/javascript" defer src="paintJS.js"></script>
+  </head>
+  <body>
+	<div id ="divID">
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="svgPanel">
+		</svg>
+		<div id ="div2_ID">
+			<input id="labelID" type="label" value ="size line"></input>
+			<input id="numberID" type="number" value ="3" max="10"  min="1" onclick="sizeL(value)"></input>
+			<input id="label2ID" type="label" value ="color"></input>
+			<div id ="divButtonID">
+				<div   class="ColorClass"  id="d1_ID"  value"red" onclick="setColor(0)"></div>
+				<div   class="ColorClass"  id="d2_ID"  value"yellow" onclick="setColor(1)"></div>
+				<div   class="ColorClass"  id="d3_ID"  value"green" onclick="setColor(2)"></div>
+				<div   class="ColorClass"  id="d4_ID"  value"black" onclick="setColor(3)"></div>
+				<div   class="ColorClass"  id="d5_ID"  value"gray" onclick="setColor(4)"></div>
+				<div   class="ColorClass"  id="d6_ID"  value"blue" onclick="setColor(5)"></div>
+			</div>	
+			<form id="ComboBox">
+			<select id="box">
+			<option value="0" selected>Line</option>
+			<option value="1" >strokeRect</option>
+			<option value="2">strokeArct</option>
+			</select>
+		</form>	
+        </div>		
+	</div>
+  </body>
+ </html>

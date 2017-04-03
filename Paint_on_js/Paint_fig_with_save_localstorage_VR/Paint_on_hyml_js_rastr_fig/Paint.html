@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf - 8"> </meta>
+      <title>Paint</title>
+	   <script type="text/javascript" src="paintJS.js"></script>
+     <link rel="stylesheet" type="text/css" href="Paint.css"></link>
+	 <!--Изоляция от траблов-->
+  </head>
+  <body >
+	<div id ="MainDivID">
+		<img src="" id="canvasImg" class="canvas__mirror" />
+		<canvas id="canvasID" width="400" height="400"></canvas>
+			
+		<div id ="ElementControlsID">
+			<div id = "divControls">
+				<div id = "LableControls">
+					<input id="labelColorID" type="label" value ="Choice color"></input>
+					<input id="labelWidthID" type="label" value ="Width line"></input>
+				</div>
+				<div id = "Wd_Cl_Controls">
+					<input id="PalitraBleat" type="color" onchange="setColor()"/>
+					<input id="TrackBar" type="range" min="1" max="100" value="2" onchange="sizeL()"/>
+				</div>
+			</div>
+			<div id = "buttonsControls">
+				<div id = "LableControls">
+					<input type="button" id="btn_save" onclick="save(btn_save.value)" value="save"/>
+				</div>
+				<div id ="divButtons">
+					<input type="button" id="btn_load" onclick="load(btn_load.value)" value="load"/>
+					<input type="button" id="btn_clear" onclick="clearCanv(true)" value="CLEAR" />
+				</div>		
+			</div>
+			<form id="ComboBox">
+				<select id="box">
+				<option value="0" selected>Line</option>
+				<option value="1" >strokeRect</option>
+				<option value="2">strokeArct</option>
+				</select>
+			</form>	
+		</div>		
+	</div>
+  </div>
+  </body>
+ </html>
