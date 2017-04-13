@@ -1,0 +1,23 @@
+#canvasID{
+    border:     2px solid black;
+    position:   fixed; top: 1%; left: 25%;
+    background: white;
+}
+
+.mainDiv {
+     border:     2px solid aqua;
+     position:   fixed;
+     top:        1%;
+     left:       25%;
+     background: white;
+     height:     600px;
+     width:      850px;
+ }
+.divControls
+{
+    width:250px;
+    height:600px;
+    position: fixed; top: 2%; left: 73%;
+    border-radius: 15px;
+    display:block;
+}

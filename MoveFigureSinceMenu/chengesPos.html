@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Move and chenges size figure</title>
+    <link rel="stylesheet"  type="text/css" href="chengePos.css" />
+    <script  defer   src="chengePos.js"></script>
+    <script  defer   src="Square.js"></script>
+</head>
+<body>
+  <div class="mainDiv" >
+        <div class = "divControls">
+            <div>
+                <label for ="typeFigureID">Choice figures type</label>
+                <select id ="typeFigureID" onchange="checkFigure(this.value)" >
+                    <option value="1" selected>Line</option>
+                    <option value="2">Oval</option>
+                    <option value="3">Rectengel</option>
+                </select>
+                </div>
+            <div>
+                <label for="PalitraBleat">Choice color</label>
+                <input id="PalitraBleat" type="color" onchange="setColor()"/>
+            </div>
+            <div>
+                <label for="TrackBar">Choice stroke</label>
+                <input id="TrackBar" type="range" min="1" max="100" value="2" onchange="sizeL()"/>
+            </div>
+
+            <div >
+                <input type="button" id="btn_save" onclick="save(btn_save.value)" value="save"/>
+                <input type="button" id="btn_load" onclick="load(btn_load.value)" value="load"/>
+                <input type="button" id="btn_clear" onclick="clearCanv(true)" value="CLEAR" />
+            </div>
+        </div>
+        </div>
+        <canvas  id="canvasID" height="600" width="600"/>
+    </div>
+</body>
+</html>
