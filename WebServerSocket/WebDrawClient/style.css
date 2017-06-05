@@ -49,11 +49,12 @@ html, body {
     flex-grow: 3;
     background: #ffff00;
 }
-.center_textarea{
+#canvas{
     display: flex;
     flex-grow: 1;
     resize: none;
     background: #ffffff;
+    border: 3px solid black;
 }
 .container__message{
     display: flex;

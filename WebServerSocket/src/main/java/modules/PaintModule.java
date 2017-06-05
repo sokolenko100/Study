@@ -1,26 +1,26 @@
 package modules;
 
 import com.google.gson.Gson;
-import data.SingletonDBModule;
 import rooms.ChatModuleRoom;
+import rooms.PaintModuleRoom;
 import web.server.SessionClient;
 import web.server.SingletonDBSession;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class ChatModule extends Thread implements IModule {
+public class PaintModule extends Thread implements IModule {
 
     SingletonDBSession singletonDBSession    = null;
-    ArrayList<ChatModuleRoom> chatModuleRoom = null;
+    ArrayList<PaintModuleRoom> paintModuleRoom = null;
     Gson gson                                = null;
     private static final String  allRooms    = "allRooms";
     private static final String  newRoom   = "newRoom";
-    private static final String  sendMassege = "sendMessage";
+    private static final String  draw = "draw";
 
-    public ChatModule() {
+    public PaintModule() {
         singletonDBSession = SingletonDBSession.getInstance();
-        chatModuleRoom = new ArrayList<ChatModuleRoom>();
+        paintModuleRoom = new ArrayList<PaintModuleRoom>();
         gson = new Gson();
         start();
     }
@@ -28,6 +28,7 @@ public class ChatModule extends Thread implements IModule {
     @Override
     public  String runCommand(String str)
     {
+        System.out.println("str = "+ str);
         String [] args = str.split(":");
         String from = args[0];
         String to = args[1];
@@ -44,8 +45,8 @@ public class ChatModule extends Thread implements IModule {
             return null;
         }
         if (args[2].equals(newRoom)) {
-            ChatModuleRoom newR = new ChatModuleRoom(args[3]);
-            chatModuleRoom.add(newR);
+            PaintModuleRoom newR = new PaintModuleRoom(args[3]);
+            paintModuleRoom.add(newR);
             String answerFromServer = newRoom + ":" + gson.toJson(newR);
             for (int i = 0;i < singletonDBSession.Size();i++) {
                 SessionClient scl = singletonDBSession.getClients(i);
@@ -56,10 +57,10 @@ public class ChatModule extends Thread implements IModule {
                 }catch (IOException e){}
             }
         }
-        if (args[2].equals(sendMassege)) {
-            String nameRoom     = args[3];
-            ChatModuleRoom room = null;
-            for(ChatModuleRoom r : chatModuleRoom )
+        if (args[2].equals(draw)) {
+            String nameRoom      = args[3];
+            PaintModuleRoom room = null;
+            for(PaintModuleRoom r : paintModuleRoom )
             {
                 if(nameRoom.equals(r.roomsName))
                 {
@@ -69,12 +70,15 @@ public class ChatModule extends Thread implements IModule {
             }
             if(room!= null)
             {
-                room.story += sc.login + ": " + args[4] + "\n";
-                String gsonRoom = sendMassege + ":" + gson.toJson(room);
+                System.out.println(" sc.indexOf = "+  str.indexOf("{") );
+                System.out.println(" subscrin = "+  str.substring(str.indexOf("{")) );
+                room.story += str.substring(str.indexOf("{")) + ";";
+                System.out.println("  room.story = "+   room.story);
+                String gsonRoom = draw + ":" + gson.toJson(room);
                 for (int i = 0;i < singletonDBSession.Size();i++) {
                     SessionClient scl = singletonDBSession.getClients(i);
                     try {
-                            scl.session.getRemote().sendString(gsonRoom);
+                        scl.session.getRemote().sendString(gsonRoom);
                     }catch (IOException e){}
                 }
             }
@@ -84,7 +88,7 @@ public class ChatModule extends Thread implements IModule {
     public String getAllRooms()
     {
         String  result = allRooms+":";
-        result += gson.toJson(chatModuleRoom);
+        result += gson.toJson(paintModuleRoom);
         System.out.print("result = "+ result);
         return  result;
     }

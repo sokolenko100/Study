@@ -2,6 +2,7 @@ package dispatcher;
 
 import java.io.IOException;
 
+import modules.ChatModule;
 import socket.server.accept.SClient;
 import socket.server.accept.SingletonDBSocket;
 import modules.IModule;
@@ -24,22 +25,6 @@ public class Dispatcher
 		String[] args = str.split(":");
 		String from = args[0];
 		String to = args[1];
-
-		if (args[3].equals("login")) {
-			int id = Integer.parseInt(from);
-			System.out.println("args.length = " +args.length);
-			System.out.println("args[3] = " +args[3]);
-			SessionClient sc = singletonDBSession.getClient(id);
-			System.out.println("login  = " + args[4] + ":" + str);
-			System.out.println("sc = " + sc);
-			if(sc !=null) {
-				sc.login = args[4];
-			}
-			return;
-		}
-//		String [] args = strParse.split(":",3);
-//		String from = args[0];
-//		String to = args[1];
 		IModule module = moduleFactory.CheckModule(to);
 
 		if(module==null)
@@ -58,7 +43,6 @@ public class Dispatcher
 		else
 		{
 			System.out.println("from  =  "+ from );
-
 			module.runCommand(str);
 		}
 	}

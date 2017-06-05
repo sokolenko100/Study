@@ -1,32 +1,76 @@
 document.addEventListener("DOMContentLoaded", init());
 var ws,
-    textArea,
-    message,
+    canvas,
+    ctx,
     login,
     select,
     rooms = [],
+    currentX,
+    currentY,
     allRooms = "allRooms",
     newRooms = "newRoom",
-    sMessage = "sendMessage";
+    sMessage = "draw";
 function init()
 {
     login = loginIn();
 
     textArea = document.getElementsByClassName("center_textarea")[0];
-    select = document.getElementsByClassName("select")[0];
-    message = document.getElementsByClassName("message")[0];
+    canvas   = document.getElementById("canvas");
+    ctx      = canvas.getContext("2d");
+    select   = document.getElementsByClassName("select")[0];
     document.getElementById("label").innerText = login;
 
-    message.onkeyup = function(e)
+    canvas.addEventListener('mousedown',function(e)
     {
-        if(e.keyCode ==13)
-        {
-            send();
-        }
-    };
+        setPosition('down',e);
+    });
+    canvas.addEventListener('mouseup',function(e)
+    {
+        setPosition('up',e);
+    });
+
     setConnection();
 }
-function ChatRoom(roomsName,story)
+function Figure(x,y,x1,y1)
+{
+    var  self = this;
+    self.x  = x;
+    self.y  = y;
+    self.x1 = x1;
+    self.y1 = y1;
+    this.draw = function () {
+        ctx.beginPath();
+        ctx.lineWidth = 3;
+        ctx.moveTo(self.x,self.y);
+        ctx.lineTo(self.x1,self.y1);
+        ctx.strokeStyle = "#000000";
+        ctx.closePath();
+        ctx.stroke();
+    }
+}
+function setPosition(rez,ev)
+{
+    if(rez=='down')
+    {
+        currentX = ev.clientX - canvas.offsetLeft;
+        currentY = ev.clientY - canvas.offsetTop;
+    }
+
+    if(rez=='up')
+    {
+        prevX    = currentX;
+        prevY    = currentY;
+        currentX = ev.clientX - canvas.offsetLeft;
+        currentY = ev.clientY - canvas.offsetTop;
+        if(rooms.length!=0)
+        {
+            var txt  = select.options[select.selectedIndex].innerText;
+            var line = new Figure(prevX, prevY, currentX, currentY);
+            sendMessage("draw:" + txt + ":" + JSON.stringify(line));
+        }
+    }
+}
+function PaintRoom(roomsName, story)
 {
     this.roomsName = roomsName;
     this.story = story;
@@ -44,8 +88,7 @@ function CreateOption(roomsName) {
 
             if(item.roomsName === name )
             {
-                textArea.value = item.story;
-                console.log("room.story = " + item.story);
+                drawing(item);
             }
         });
     });
@@ -62,7 +105,7 @@ function CreateNewRoom() {
         countDefaultRoomsName++;
     }
 
-    var room = new ChatRoom(roomsName,"");
+    var room = new PaintRoom(roomsName,"");
     var tempJson = JSON.stringify(room);
     console.log("tempJson: " + tempJson);
     rooms.push(room);
@@ -71,16 +114,6 @@ function CreateNewRoom() {
     CreateOption(roomsName);
 
     console.log("roomsName: " + roomsName);
-}
-function send()
-{
-    if(rooms.length!=0)
-    {
-        var txt = select.options[select.selectedIndex].innerText;
-        sendMessage("sendMessage:" + txt + ":" + message.value);
-    }
-
-    message.value ="";
 }
 function loginIn()
 {
@@ -104,7 +137,7 @@ function solveCommand(args)
             }
             var room = JSON.parse(tempObj);
             room.forEach(function (item, index, arr) {
-                rooms.push(new ChatRoom(item.roomsName,item.story));
+                rooms.push(new PaintRoom(item.roomsName,item.story));
                 CreateOption(item.roomsName);
                 console.log(rooms);
             });
@@ -112,7 +145,7 @@ function solveCommand(args)
 
         case newRooms :
             var newRoom = JSON.parse(tempObj);
-            rooms.push(new ChatRoom(newRoom.roomsName,newRoom.story));
+            rooms.push(new PaintRoom(newRoom.roomsName,newRoom.story));
             CreateOption(newRoom.roomsName);
             console.log(newRoom);
             break;
@@ -130,11 +163,24 @@ function solveCommand(args)
                     item.story = room.story;
                     if(txt === room.roomsName )
                     {
-                        textArea.value = room.story;
+                        drawing(room);
                     }
                 }
             });
         } break;
+    }
+}
+function drawing(room)
+{
+    ctx.strokeStyle = "white";
+    ctx.fillStyle = "white";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    var objects = room.story.split(";");
+    for(var i = 0; i < objects.length-1; i++)
+    {
+        var temp = JSON.parse(objects[i]);
+        var line = new Figure(temp.x,temp.y,temp.x1,temp.y1);
+        line.draw();
     }
 }
 function setConnection()
@@ -158,5 +204,5 @@ function setConnection()
 }
 function sendMessage(message)
 {
-    ws.send("ChatModule:" + message);
+    ws.send("PaintModule:" + message);
 }
